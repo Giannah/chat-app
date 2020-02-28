@@ -1,29 +1,39 @@
 .textContainer {
-  display: flex;
-  flex-direction: column;
-  margin-left: 100px;
-  color: white;
-  height: 60%;
-  justify-content: space-between;
-}
+    margin-top: 2rem;
+    max-width: 40%;
+    height: 90vh;
+    border-right: 0.25rem solid;
+    padding: 1rem;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      #2979FF, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
 
-.activeContainer {
-  display: flex;
-  align-items: center;
-  margin-bottom: 50%;
-}
+    h1, h2 {
+      font-family: 'Lemonada', cursive;
+      font-size: 1.2rem;
+    }
 
-.activeItem {
-  display: flex;
-  align-items: center;
-}
+    .activeContainer {
 
-.activeContainer img {
-  padding-left: 10px;
-}
+      .users {
+        font-family: 'lato', sans-serif;
+         font-size: 1rem;
+      }
 
-.textContainer h1 {
-  margin-bottom: 0px;
+      .activeItem {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+
+        .onlineIcon {
+          height: 0.5rem;
+        }
+    }
+    }
+   
 }
 
 @media (min-width: 320px) and (max-width: 1200px) {

@@ -12,7 +12,7 @@ const Join = () => {
         <h1 className="heading">Join</h1>
         <div>
           <div>
-            <input className="joinInput" type="text" placeholder="Name" onChange={(e) => setName(e.target.value)} />
+            <input className="joinInput first" type="text" placeholder="Name" onChange={(e) => setName(e.target.value)} />
           </div>
           <div>
             <input className="joinInput mt-20" type="text" placeholder="Room" onChange={(e) => setRoom(e.target.value)} />
